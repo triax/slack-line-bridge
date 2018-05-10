@@ -1,0 +1,14 @@
+{
+  "name": "triax-line-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "otiai10",
+  "license": "MIT",
+  "dependencies": {
+    "cloud-chat-bridge": "0.0.2"
+  }
+}

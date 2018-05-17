@@ -6,9 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "otiai10",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otiai10/triax-line-bridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otiai10/triax-line-bridge/issues"
+  },
+  "homepage": "https://github.com/otiai10/triax-line-bridge#readme",
   "dependencies": {
-    "cloud-chat-bridge": "0.0.2"
+    "cf-chat-bridge": "^0.2.25"
   }
 }

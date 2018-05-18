@@ -18,5 +18,15 @@ module.exports = [
       service: "Slack",
       channels: ["lines"],
     }
+  },
+  {
+    source: {
+      service: "LINE",
+      group: "Ca2bc1feca39e0f4513216e72af91863a",
+    },
+    destination: {
+      service: "Slack",
+      channels: ["z_lb"],
+    },
   }
 ];

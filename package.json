@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "gcloud functions deploy webhook --trigger-http --project triax-football",
+    "logs": "gcloud functions logs read webhook --project triax-football",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

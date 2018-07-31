@@ -28,5 +28,21 @@ module.exports = [
       service: "Slack",
       channels: ["z_lb"],
     },
-  }
+  },
+  {
+    source: {
+      service: "LINE",
+      group: "C3a08fbcbd1c7c3dc4c68d42fb46bd112",
+    },
+    destination: {
+      service: "Slack",
+      channels: ["en_zatsudan"],
+    },
+    transforms: [
+      {
+        plugin: "translate",
+        lang: { from: "ja", to: "en" }
+      },
+    ],
+  },
 ];

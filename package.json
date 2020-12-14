@@ -1,10 +1,10 @@
 {
   "name": "triax-line-bridge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gcloud functions deploy webhook --trigger-http --project triax-football",
+    "deploy": "gcloud functions deploy webhook --runtime nodejs10 --trigger-http --region asia-northeast1 --project triax-football",
     "logs": "gcloud functions logs read webhook --project triax-football",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/otiai10/triax-line-bridge.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "otiai10",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/otiai10/triax-line-bridge/issues"
   },

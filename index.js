@@ -1,5 +1,5 @@
-const bridge = require("cf-chat-bridge");
+const { Bridge } = require("cf-chat-bridge");
 const rules = require("./rules.js");
-const vars = require("./secret.json");
-const app = bridge.init({vars});
-exports.webhook = app.webhook(rules);
+const secrets = require("./secrets.json");
+const bridge = new Bridge({ rules, secrets });
+exports.webhook = bridge.endpoint();

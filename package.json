@@ -1,6 +1,6 @@
 {
   "name": "triax-line-bridge",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/otiai10/triax-line-bridge#readme",
   "dependencies": {
-    "cf-chat-bridge": "^0.4.0"
+    "cf-chat-bridge": "0.6.4"
   }
 }

@@ -1,14 +1,5 @@
 module.exports = [
-  {
-    source: {
-      service: "Slack",
-      channel: "tech-test"
-    },
-    destination: {
-      service: "LINE",
-      to: ["C3a08fbcbd1c7c3dc4c68d42fb46bd112"],
-    },
-  },
+  // generalの全体連絡はLINEに流したい
   {
     source: {
       service: "Slack",

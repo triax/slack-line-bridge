@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/otiai10/triax-line-bridge#readme",
   "dependencies": {
-    "cf-chat-bridge": "^0.10.0"
+    "cf-chat-bridge": "^0.11.0"
   }
 }
